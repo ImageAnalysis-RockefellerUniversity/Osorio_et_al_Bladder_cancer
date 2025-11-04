@@ -1,6 +1,6 @@
 # Osorio_et_al_Bladder_cancer
 
-List of Groovy scripts used in the multiplex immunofluorescence (mIF) analysis of CODEX QPTIFF images in QuPath  
+List of Groovy scripts used in the multiplex immunofluorescence (mIF) analysis of PhenoCycler-Fusion system (Akoya Biosciences) generated QPTIFF images in QuPath  
 1. Cellpose_v4.groovy  
   Runs Cellpose, model:cyto3, diamater=15 pixels on each image
 

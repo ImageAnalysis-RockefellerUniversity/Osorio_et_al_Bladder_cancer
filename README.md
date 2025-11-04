@@ -2,7 +2,7 @@
 
 List of Groovy scripts used in the multiplex immunofluorescence (mIF) analysis of PhenoCycler-Fusion system (Akoya Biosciences) generated QPTIFF images in QuPath  
 1. Cellpose_v4.groovy  
-  Runs Cellpose, model:cyto3, diamater=15 pixels on each image
+  Creates full image annotation. Runs Cellpose, model:cyto3, diamater=15 pixels on each image
 
 2. Remove_small_big_and_faint_DAPI_nuclei_detections.groovy  
   Filters cells out which are smaller than 10 um^2, or bigger than 200 um^2 or have faint DAPI signal (DAPI mean intensity < 18)
